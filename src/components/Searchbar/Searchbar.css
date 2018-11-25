@@ -1,0 +1,43 @@
+.container {
+  background-size: cover;
+  background-position: center 25%;
+  background-image: url(https://www.carrentals.com/pictures/566/show/CR-home-background3.jpg?sh=90a70ca7adc0132f);
+  min-height: 31.25rem;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.box {
+  background: rgba(245, 245, 245, 0.8);
+  padding: 2.3rem;
+  width: 100%;
+  max-width: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box .title {
+  color: rgb(23, 190, 163);
+}
+
+.box .search {
+  font-style: italic;
+  padding: 1rem;
+  border: 0.0625rem solid rgb(23, 190, 163);
+}
+
+.box .btn {
+  border-radius: 50%;
+  align-self: flex-end;
+  background: rgb(23, 190, 163);
+  border-color: rgb(23, 190, 163);
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.box .btn:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
